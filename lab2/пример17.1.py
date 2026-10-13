@@ -1,0 +1,12 @@
+def diff():
+    m = int(input('Введите первое число: '))
+    n = int(input('Введите второе число: '))
+    if m > n:
+        print(m, '>', n, ';', m, '-', n, '=', m - n)
+    else:
+        print(m, '<', n, ';', n, '-', m, '=', n - m)
+    return m, n
+
+a, b = diff()
+c, d = diff()
+e, f = diff()
