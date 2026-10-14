@@ -1,0 +1,10 @@
+from tkinter import *
+window = Tk()
+window.title("hello world")
+window.geometry('400x250')
+txt = Entry(window, width=10)
+txt.grid(column=0, row=0)
+txt.focus()
+txt2 = Entry(window, width=10, state='disabled')
+txt2.grid(column=1, row=0)
+window.mainloop()
