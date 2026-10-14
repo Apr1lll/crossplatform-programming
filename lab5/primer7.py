@@ -1,0 +1,7 @@
+file = open('число.txt', 'w')
+file.write('1234')
+file.close()
+file = open('число.txt', 'r')
+t = int(file.read())
+print(t + 5)
+file.close()
